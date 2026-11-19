@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/InkReaderCoreTests-primary.dia",
+    "emit-module-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/InkReaderCoreTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/InkReaderCoreTests-primary-emit-module.dia",
+    "pch" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/InkReaderCoreTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/InkReaderCoreTests-primary.swiftdeps"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/Tests/InkReaderCoreTests/NovelParserTests.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.dia",
+    "index-unit-output-path" : "/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/NovelParserTests~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/CoreTests/out/Intermediates.noindex/InkReaderCore.build/Debug/InkReaderCoreTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  }
+}

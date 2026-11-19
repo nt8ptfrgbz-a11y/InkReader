@@ -1,0 +1,24 @@
+{
+  "source": "/Users/edy/Desktop/墨卷阅读器/InkReader/InkReaderApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "提示",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "知道了",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 16
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"39F9D00E691D6CD4975DB9D9" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Core/MarkdownRenderer.swift";
+			"sourceTree" = "<group>";
+		};
+		"C42D4785D3A7E632BAF6E9FC" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Core/NovelParser.swift";
+			"sourceTree" = "<group>";
+		};
+		"E94F0BB1DCE521237F3B4D6D" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/InkReaderApp.swift";
+			"sourceTree" = "<group>";
+		};
+		"8BAFA8095FD0BE7F2E7314E7" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/LibraryStore.swift";
+			"sourceTree" = "<group>";
+		};
+		"5374C0E63F7D6EA5CA1737C9" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Views/ChapterWebView.swift";
+			"sourceTree" = "<group>";
+		};
+		"C0FA57EC1A1EDFB00F31A5AB" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Views/LibraryView.swift";
+			"sourceTree" = "<group>";
+		};
+		"E7585EC01DFEFB22B8BEFD00" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Views/ReaderPanels.swift";
+			"sourceTree" = "<group>";
+		};
+		"531ECCDA1FB2E2A57EC201F2" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReader/Views/ReaderView.swift";
+			"sourceTree" = "<group>";
+		};
+		"FFA7ABA69737E660B7B9FDFF" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "InkReaderUITests/InkReaderUITests.swift";
+			"sourceTree" = "<group>";
+		};
+		"3685E330EC5277A9DD5661C6" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "InkReader/Assets.xcassets";
+			"sourceTree" = "<group>";
+		};
+		"CAEE3E9D54B49AE50AA4AE7B" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "InkReader/Resources/诛仙同人·长相守.md";
+			"sourceTree" = "<group>";
+		};
+		"59BD0A3FF43B32849B319E64" = {
+			"isa" = PBXFileReference;
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "InkReader/Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"4E783A9E10D2A8ABA38CD11C" = {
+			"isa" = PBXFileReference;
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "InkReader.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"6C7CCDEB3609F1FAA874E941" = {
+			"isa" = PBXFileReference;
+			"explicitFileType" = "wrapper.cfbundle";
+			"includeInIndex" = 0;
+			"path" = "InkReaderUITests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"D4FC761BD056F06C14E44DD2" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = 39F9D00E691D6CD4975DB9D9;
+		};
+		"2A9D503787A2CE504E58FBE0" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = C42D4785D3A7E632BAF6E9FC;
+		};
+		"4EC8FF4ACE54A398C9F61834" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = E94F0BB1DCE521237F3B4D6D;
+		};
+		"E6BF5DFF8BC827D336A9BCD4" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = 8BAFA8095FD0BE7F2E7314E7;
+		};
+		"37C351E9E02D629D2D4FFFAB" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = 5374C0E63F7D6EA5CA1737C9;
+		};
+		"51BE954974245AF2278C9D3A" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = C0FA57EC1A1EDFB00F31A5AB;
+		};
+		"C608A88E8B55748323006A0D" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = E7585EC01DFEFB22B8BEFD00;
+		};
+		"4DC46F6A344D3EF819A523EF" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = 531ECCDA1FB2E2A57EC201F2;
+		};
+		"949D493B91791558E87BC5D7" = {
+			"isa" = PBXSourcesBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+				D4FC761BD056F06C14E44DD2,
+				2A9D503787A2CE504E58FBE0,
+				4EC8FF4ACE54A398C9F61834,
+				E6BF5DFF8BC827D336A9BCD4,
+				37C351E9E02D629D2D4FFFAB,
+				51BE954974245AF2278C9D3A,
+				C608A88E8B55748323006A0D,
+				4DC46F6A344D3EF819A523EF,
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"BD92572B49AC16A86614498D" = {
+			"isa" = PBXFrameworksBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"BBED79B569D45346C6018B8B" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = 3685E330EC5277A9DD5661C6;
+		};
+		"E97F2198260B3A538D337337" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = CAEE3E9D54B49AE50AA4AE7B;
+		};
+		"8ECC8B5D05B79F879ACDF1A2" = {
+			"isa" = PBXResourcesBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+				BBED79B569D45346C6018B8B,
+				E97F2198260B3A538D337337,
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"60837923C35C261091AB6D65" = {
+			"isa" = PBXBuildFile;
+			"fileRef" = FFA7ABA69737E660B7B9FDFF;
+		};
+		"77A03FEE20FE96AD9384861E" = {
+			"isa" = PBXSourcesBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+				60837923C35C261091AB6D65,
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"E05DB79C430AA1B0BA487AFC" = {
+			"isa" = PBXFrameworksBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"D5C76E148680C094C001AC35" = {
+			"isa" = PBXResourcesBuildPhase;
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"ED8772ADEC3A6C25161BC957" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "gnu++20";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+			};
+			"name" = "Debug";
+		};
+		"00F209874A1F7309F6DCEAA7" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"CLANG_CXX_LANGUAGE_STANDARD" = "gnu++20";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"52F2F9CC608B4D49DE0CC19D" = {
+			"isa" = XCConfigurationList;
+			"buildConfigurations" = (
+				ED8772ADEC3A6C25161BC957,
+				00F209874A1F7309F6DCEAA7,
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"F8975E934DA2067E0E497395" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "LA5VS444F2";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"INFOPLIST_FILE" = "InkReader/Info.plist";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.edy.inkreader";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+			};
+			"name" = "Debug";
+		};
+		"F72D4F08E84CA4C7F809A7CF" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "LA5VS444F2";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"INFOPLIST_FILE" = "InkReader/Info.plist";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.edy.inkreader";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"330DA949073E8C3312361002" = {
+			"isa" = XCConfigurationList;
+			"buildConfigurations" = (
+				F8975E934DA2067E0E497395,
+				F72D4F08E84CA4C7F809A7CF,
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"C449802CFC00FE43A29E0F19" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "LA5VS444F2";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.edy.inkreader.uitests";
+				"TEST_TARGET_NAME" = "InkReader";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+			};
+			"name" = "Debug";
+		};
+		"C4D458CFDB61996E24F4F16F" = {
+			"isa" = XCBuildConfiguration;
+			"buildSettings" = {
+				"CODE_SIGN_STYLE" = "Automatic";
+				"DEVELOPMENT_TEAM" = "LA5VS444F2";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.edy.inkreader.uitests";
+				"TEST_TARGET_NAME" = "InkReader";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"F8FD266789E86EC9A54EF915" = {
+			"isa" = XCConfigurationList;
+			"buildConfigurations" = (
+				C449802CFC00FE43A29E0F19,
+				C4D458CFDB61996E24F4F16F,
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"F75109BEB4DD8800DA6B45F8" = {
+			"isa" = PBXNativeTarget;
+			"buildConfigurationList" = 330DA949073E8C3312361002;
+			"buildPhases" = (
+				949D493B91791558E87BC5D7,
+				BD92572B49AC16A86614498D,
+				8ECC8B5D05B79F879ACDF1A2,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "InkReader";
+			"productName" = "InkReader";
+			"productReference" = 4E783A9E10D2A8ABA38CD11C;
+			"productType" = "com.apple.product-type.application";
+		};
+		"7E85D4A68785761E1DBB22D8" = {
+			"isa" = PBXContainerItemProxy;
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = 1;
+			"remoteGlobalIDString" = F75109BEB4DD8800DA6B45F8;
+			"remoteInfo" = "InkReader";
+		};
+		"BAE932EF166B50AB877FDC6F" = {
+			"isa" = PBXTargetDependency;
+			"target" = F75109BEB4DD8800DA6B45F8;
+			"targetProxy" = 7E85D4A68785761E1DBB22D8;
+		};
+		"C062A5A4A7F4F37DD90F54CB" = {
+			"isa" = PBXNativeTarget;
+			"buildConfigurationList" = F8FD266789E86EC9A54EF915;
+			"buildPhases" = (
+				77A03FEE20FE96AD9384861E,
+				E05DB79C430AA1B0BA487AFC,
+				D5C76E148680C094C001AC35,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				BAE932EF166B50AB877FDC6F,
+			);
+			"name" = "InkReaderUITests";
+			"productName" = "InkReaderUITests";
+			"productReference" = 6C7CCDEB3609F1FAA874E941;
+			"productType" = "com.apple.product-type.bundle.ui-testing";
+		};
+		"3C3B0F03DC089F93B8457928" = {
+			"isa" = PBXGroup;
+			"children" = (
+				39F9D00E691D6CD4975DB9D9,
+				C42D4785D3A7E632BAF6E9FC,
+				E94F0BB1DCE521237F3B4D6D,
+				8BAFA8095FD0BE7F2E7314E7,
+				5374C0E63F7D6EA5CA1737C9,
+				C0FA57EC1A1EDFB00F31A5AB,
+				E7585EC01DFEFB22B8BEFD00,
+				531ECCDA1FB2E2A57EC201F2,
+				3685E330EC5277A9DD5661C6,
+				CAEE3E9D54B49AE50AA4AE7B,
+				59BD0A3FF43B32849B319E64,
+			);
+			"name" = "InkReader";
+			"sourceTree" = "<group>";
+		};
+		"E717C295FF9827DFF805D88B" = {
+			"isa" = PBXGroup;
+			"children" = (
+				FFA7ABA69737E660B7B9FDFF,
+			);
+			"name" = "InkReaderUITests";
+			"sourceTree" = "<group>";
+		};
+		"FBDC4F23F93125BBEEAE800C" = {
+			"isa" = PBXGroup;
+			"children" = (
+				4E783A9E10D2A8ABA38CD11C,
+				6C7CCDEB3609F1FAA874E941,
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"870B3294C0CBD48AF6BBCC1B" = {
+			"isa" = PBXGroup;
+			"children" = (
+				3C3B0F03DC089F93B8457928,
+				E717C295FF9827DFF805D88B,
+				FBDC4F23F93125BBEEAE800C,
+			);
+			"sourceTree" = "<group>";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = PBXProject;
+			"attributes" = {
+				"LastUpgradeCheck" = "2700";
+				"BuildIndependentTargetsInParallel" = "YES";
+				"TargetAttributes" = {
+					"F75109BEB4DD8800DA6B45F8" = {
+						"CreatedOnToolsVersion" = "27.1";
+					};
+					"C062A5A4A7F4F37DD90F54CB" = {
+						"CreatedOnToolsVersion" = "27.1";
+						"TestTargetID" = F75109BEB4DD8800DA6B45F8;
+					};
+				};
+			};
+			"buildConfigurationList" = 52F2F9CC608B4D49DE0CC19D;
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "zh_CN";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = (
+				"zh_CN",
+				"en",
+				"Base",
+			);
+			"mainGroup" = 870B3294C0CBD48AF6BBCC1B;
+			"productRefGroup" = FBDC4F23F93125BBEEAE800C;
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				F75109BEB4DD8800DA6B45F8,
+				C062A5A4A7F4F37DD90F54CB,
+			);
+		};
+	};
+	"rootObject" = 98F54143AB4E86B28C3AFEE0;
+}

@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'InkReaderUITests' in project 'InkReader'
+➜ Explicit dependency on target 'InkReader' in project 'InkReader'
+Target 'InkReader' in project 'InkReader' (no dependencies)

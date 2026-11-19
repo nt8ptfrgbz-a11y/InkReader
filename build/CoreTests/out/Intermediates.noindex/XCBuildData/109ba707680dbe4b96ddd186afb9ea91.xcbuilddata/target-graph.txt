@@ -1,0 +1,11 @@
+Target dependency graph (4 targets)
+Target 'AllIncludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'InkReaderCoreTests-product' in project 'InkReaderCore'
+➜ Dependency on target 'InkReaderCoreTests-product' in project 'InkReaderCore' via transitive dependency through 'InkReaderCoreTests-test-runner'
+➜ Explicit dependency on target 'InkReaderCore-product' in project 'InkReaderCore'
+➜ Explicit dependency on target 'InkReaderCore' in project 'InkReaderCore'
+Target 'InkReaderCore-product' in project 'InkReaderCore'
+➜ Explicit dependency on target 'InkReaderCore' in project 'InkReaderCore'
+Target 'InkReaderCoreTests-product' in project 'InkReaderCore'
+➜ Explicit dependency on target 'InkReaderCore' in project 'InkReaderCore'
+Target 'InkReaderCore' in project 'InkReaderCore' (no dependencies)

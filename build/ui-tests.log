@@ -1,0 +1,12 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project InkReader.xcodeproj -scheme InkReader -configuration Debug -destination id=DFE124E8-87A4-4863-8BFB-EB08EB797B6F -derivedDataPath build/Simulator -resultBundlePath build/ReaderUITests.xcresult -parallel-testing-enabled NO test-without-building CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/edy/Desktop/墨卷阅读器/build/ReaderUITests.xcresult
+
+2026-11-19 09:36:04.269 xcodebuild[71999:17868987] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 09:36:04.273 xcodebuild[71999:17868987] [MT] IDESchemeActionDeviceRecord: versionAndBuild = 27.1 (24A94425), error = invalidDigitCount(94425).
+** BUILD INTERRUPTED **

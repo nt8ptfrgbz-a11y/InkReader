@@ -1,0 +1,72 @@
+{
+  "source": "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/ReaderView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "这本书暂时无法打开",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "已添加书签",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "返回书架",
+        "location": {
+          "startingColumn": 179,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加书签",
+        "location": {
+          "startingColumn": 128,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld / %lld  ·  本章 %lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "上一章",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "下一章",
+        "location": {
+          "startingColumn": 88,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "轻点正文，沉浸阅读",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 100
+        }
+      }
+    ]
+  },
+  "version": 1
+}

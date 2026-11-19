@@ -1,0 +1,56 @@
+{
+  "info" : {
+    "arguments" : [
+      "devicectl",
+      "device",
+      "process",
+      "launch",
+      "--device",
+      "00008150-00056D243A20401C",
+      "--json-output",
+      "build/iphone-launch.json",
+      "com.edy.inkreader"
+    ],
+    "commandType" : "devicectl.device.process.launch",
+    "environment" : {
+      "TERM" : "dumb"
+    },
+    "jsonVersion" : 5,
+    "outcome" : "success",
+    "version" : "651.13.5"
+  },
+  "result" : {
+    "deviceIdentifier" : "915330EC-D9CF-560C-8A52-E2F18D6EDBCC",
+    "launchOptions" : {
+      "activatedWhenStarted" : true,
+      "arguments" : [
+
+      ],
+      "environmentVariables" : {
+        "TERM" : "dumb"
+      },
+      "platformSpecificOptions" : {
+
+      },
+      "startStopped" : false,
+      "terminateExistingInstances" : false,
+      "user" : {
+        "active" : true
+      }
+    },
+    "process" : {
+      "auditToken" : [
+        4294967295,
+        501,
+        501,
+        501,
+        501,
+        64084,
+        0,
+        162689
+      ],
+      "executable" : "file:///private/var/containers/Bundle/Application/C5E226E5-3DD3-4517-B89A-A0F706E4B715/InkReader.app/InkReader",
+      "processIdentifier" : 64084
+    }
+  }
+}

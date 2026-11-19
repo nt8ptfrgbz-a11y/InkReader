@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReader-primary.dia",
+    "emit-module-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReader-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReader-primary-emit-module.dia",
+    "pch" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReader-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReader-primary.swiftdeps"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Core/MarkdownRenderer.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/MarkdownRenderer~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Core/NovelParser.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/NovelParser~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/InkReaderApp.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/InkReaderApp~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/LibraryStore.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryStore~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/ChapterWebView.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ChapterWebView~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/LibraryView.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/LibraryView~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/ReaderPanels.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderPanels~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/ReaderView.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/ReaderView~partial.swiftmodule"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReader.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "source": "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/LibraryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "从书架删除《%@》？",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "点击右上角，导入你的 MD 或 TXT 小说。",
+        "location": {
+          "startingColumn": 162,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "书架还空着",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有找到这本书",
+        "location": {
+          "startingColumn": 88,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "我的书架",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 本",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "查找书架中的小说",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "清空搜索",
+        "location": {
+          "startingColumn": 172,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "文字留在本机，故事随时继续。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除小说和阅读记录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "原始文件不会受影响，可以重新导入。",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "导入小说",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "INK / READER",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "墨卷",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "把时间，留给故事",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "本地书库",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "为你展开的故事",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "上次读到这里",
+        "location": {
+          "startingColumn": 89,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 章 · %@字",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% ",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "开始阅读",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "继续阅读",
+        "location": {
+          "startingColumn": 79,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 章  /  %@字",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "尚未开始 · 点击展开",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "已读 %lld%% · 第 %lld 章",
+        "location": {
+          "startingColumn": 95,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除小说",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 131
+        }
+      }
+    ]
+  },
+  "version": 1
+}

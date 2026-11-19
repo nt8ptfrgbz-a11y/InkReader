@@ -1,0 +1,57 @@
+Xcode version: 27.1 (27A9275)
+09:34:38.555 xcodebuild[71999:17868987] Beginning test session InkReaderUITests-6640E8EE-599A-4D06-AD2C-22220AA701AA at 2026-11-19 09:34:38.554 on target <DVTiPhoneSimulator: 0x7a8d733600> {
+		SimDevice: InkReader QA (DFE124E8-87A4-4863-8BFB-EB08EB797B6F, iOS 27.1, Booted)
+} (27.1 (24A94425))
+09:34:38.555 xcodebuild[71999:17868987] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+-project
+InkReader.xcodeproj
+-scheme
+InkReader
+-configuration
+Debug
+-destination
+id=DFE124E8-87A4-4863-8BFB-EB08EB797B6F
+-derivedDataPath
+build/Simulator
+-resultBundlePath
+build/ReaderUITests.xcresult
+-parallel-testing-enabled
+NO
+test-without-building
+CODE_SIGNING_ALLOWED=NO
+09:34:38.560 xcodebuild[71999:17868987] Test standard output and standard error is at /Users/edy/Desktop/墨卷阅读器/build/ReaderUITests.xcresult/Staging/1_Test/Diagnostics/InkReaderUITests-457D5141-1BEB-40F0-A755-1623007926B3-Configuration-Test Scheme Action-Iteration-1/InkReaderUITests-94C170FA-975B-4B63-B72A-C2D63AFD1223/StandardOutputAndStandardError.txt
+09:34:38.570 xcodebuild[71999:17869208] 📱<DVTiPhoneSimulator (0x7a8d733600), InkReader QA, unknown class, 27.1 (24A94425), DFE124E8-87A4-4863-8BFB-EB08EB797B6F> claim LaunchSessionClaim_0x7a8e4a6e80 on simulator was issued, 2 claims exist.
+09:34:38.571 xcodebuild[71999:17868987] Setting up test runner session
+09:34:38.572 xcodebuild[71999:17868987] Registering/updating daemon-based crash report observer for process names (
+    xctest,
+    debugserver,
+    FrontBoard,
+    assertiond,
+    runningboardd,
+    SpringBoard,
+    testmanagerd,
+    backboardd,
+    DTServiceHub,
+    "InkReaderUITests-Runner",
+    InkReader
+)
+09:34:38.572 xcodebuild[71999:17869209] Sim InkReader QA: Unregistering for sim device notification with token 5
+09:34:38.572 xcodebuild[71999:17869209] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:34:38.590 xcodebuild[71999:17869209] Sim InkReader QA has testmanagerd socket at /private/var/tmp/com.apple.launchd.c2he2klMhf/com.apple.testmanagerd.unix-domain.socket
+09:34:38.590 xcodebuild[71999:17869209] Validating test connection socket path (/private/var/tmp/com.apple.launchd.c2he2klMhf/com.apple.testmanagerd.unix-domain.socket)
+09:34:38.590 xcodebuild[71999:17869209] Constructing transport for test connection socket
+09:34:38.590 xcodebuild[71999:17869209] Connected socket 28 to testmanagerd for Sim InkReader QA
+09:34:38.591 xcodebuild[71999:17869208] Received connection for test runner session
+09:34:38.591 xcodebuild[71999:17869208] Listening for proxy connection request from the test bundle
+09:34:38.591 xcodebuild[71999:17869208] Initiating session with identifier: 6640E8EE-599A-4D06-AD2C-22220AA701AA
+09:34:38.591 xcodebuild[71999:17868987] Test runner session acquired connection.
+09:35:57.512 xcodebuild[71999:17872864] Got reply to session initiation request with identifier 6640E8EE-599A-4D06-AD2C-22220AA701AA (error: (null))
+09:36:02.648 xcodebuild[71999:17868987] Finished requesting crash reports. Continuing with testing.
+09:36:03.636 xcodebuild[71999:17868987] Launch session started.
+09:36:04.250 xcodebuild[71999:17871652] 📱<DVTiPhoneSimulator (0x7a8d733600), InkReader QA, unknown class, 27.1 (24A94425), DFE124E8-87A4-4863-8BFB-EB08EB797B6F> claim LaunchSessionClaim_0x7a8e4a6e80 on simulator was issued, 2 claims exist.
+09:36:04.344 xcodebuild[71999:17873312] 📱<DVTiPhoneSimulator (0x7a8d733600), InkReader QA, unknown class, 27.1 (24A94425), DFE124E8-87A4-4863-8BFB-EB08EB797B6F> claim LaunchSessionClaim_0x7a8e4a6e80 on simulator was issued, 2 claims exist.
+09:36:04.347 xcodebuild[71999:17873312] DFE124E8-87A4-4863-8BFB-EB08EB797B6F: Registered for sim device notification, got token 8
+09:36:04.349 xcodebuild[71999:17872864] DFE124E8-87A4-4863-8BFB-EB08EB797B6F: Unregistering for sim device notification with token 8
+09:36:04.362 xcodebuild[71999:17873312] DFE124E8-87A4-4863-8BFB-EB08EB797B6F: Installing app at path: /Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Products/Debug-iphonesimulator/InkReaderUITests-Runner.app and options: {
+    SkipWatchAppInstall = 1;
+}

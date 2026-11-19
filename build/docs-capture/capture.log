@@ -1,0 +1,349 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project InkReader.xcodeproj -scheme InkReader -configuration Release -destination id=00008150-00056D243A20401C -derivedDataPath build/Device -resultBundlePath build/docs-capture/ReadmeScreenshots.xcresult -parallel-testing-enabled NO "-only-testing:InkReaderUITests/InkReaderUITests/testCaptureReadmeScreenshots" test CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=LA5VS444F2
+
+Build settings from command line:
+    CODE_SIGN_STYLE = Automatic
+    DEVELOPMENT_TEAM = LA5VS444F2
+
+Writing result bundle at path:
+	/Users/edy/Desktop/墨卷阅读器/build/docs-capture/ReadmeScreenshots.xcresult
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'InkReaderUITests' in project 'InkReader'
+        ➜ Explicit dependency on target 'InkReader' in project 'InkReader'
+    Target 'InkReader' in project 'InkReader' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/edy/Desktop/墨卷阅读器/InkReader/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+Build description signature: 63e3962a61a7f6d3fb08eed32625abc2
+Build description path: /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/XCBuildData/63e3962a61a7f6d3fb08eed32625abc2.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk /Users/edy/Desktop/墨卷阅读器/build/Device/SDKStatCaches.noindex/iphoneos27.1-24A94232-7568eff67e6f40c5a98ca4ef40d9005c.sdkstatcache
+    cd /Users/edy/Desktop/墨卷阅读器/InkReader.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -o /Users/edy/Desktop/墨卷阅读器/build/Device/SDKStatCaches.noindex/iphoneos27.1-24A94232-7568eff67e6f40c5a98ca4ef40d9005c.sdkstatcache
+
+ProcessProductPackaging "" /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent (in target 'InkReader' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "LA5VS444F2.com.edy.inkreader";
+    "com.apple.developer.team-identifier" = LA5VS444F2;
+    "get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/ProductTypeInfoPlistAdditions.plist (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/ProductTypeInfoPlistAdditions.plist
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/empty-InkReaderUITests.plist (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/empty-InkReaderUITests.plist
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_const_extract_protocols.json (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftConstValuesFileList (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.LinkFileList (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.LinkFileList
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-OutputFileMap.json (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyStaticMetadataFileList (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyMetadataFileList (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-project-headers.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-project-headers.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-own-target-headers.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-generated-files.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-generated-files.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-target-headers.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-non-framework-target-headers.hmap (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/Entitlements.plist (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    write-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/Entitlements.plist
+
+MkDir /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /bin/mkdir -p /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest
+
+ProcessProductPackagingDER /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent.der (in target 'InkReader' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /usr/bin/derq query -f xml -i /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent.der --raw
+
+ProcessInfoPlistFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app/Info.plist /Users/edy/Desktop/墨卷阅读器/InkReader/Info.plist (in target 'InkReader' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-infoPlistUtility /Users/edy/Desktop/墨卷阅读器/InkReader/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app/Info.plist
+
+CodeSign /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app (in target 'InkReader' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+    Signing Identity:     "Apple Development: do grub song (32ZPS45QQ5)"
+    Provisioning Profile: "iOS Team Provisioning Profile: *"
+                          (b6849910-33e7-469b-823b-3c2b7c1cc83d)
+    
+    /usr/bin/codesign --force --sign 0488AC873052273E16C2F588E98A59F4ED63B9E4 --entitlements /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReader.build/InkReader.app.xcent --timestamp\=none --generate-entitlement-der /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app
+/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app: replacing existing signature
+
+ProcessProductPackaging /Users/edy/Library/Developer/Xcode/UserData/Provisioning\ Profiles/b6849910-33e7-469b-823b-3c2b7c1cc83d.mobileprovision /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/embedded.mobileprovision (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-productPackagingUtility /Users/edy/Library/Developer/Xcode/UserData/Provisioning\ Profiles/b6849910-33e7-469b-823b-3c2b7c1cc83d.mobileprovision -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/embedded.mobileprovision
+
+ProcessProductPackaging "" /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "LA5VS444F2.com.edy.inkreader.uitests.xctrunner";
+    "com.apple.developer.team-identifier" = LA5VS444F2;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "LA5VS444F2.com.edy.inkreader.uitests.xctrunner"
+    );
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent
+
+ProcessProductPackagingDER /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent.der (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /usr/bin/derq query -f xml -i /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent.der --raw
+
+SwiftDriver InkReaderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name InkReaderUITests -O @/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk/Developer/Library/Frameworks -parse-as-library -emit-localized-strings -emit-localized-strings-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/SDKStatCaches.noindex/iphoneos27.1-24A94232-7568eff67e6f40c5a98ca4ef40d9005c.sdkstatcache -output-file-map /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -sdk-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-generated-files.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-own-target-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-project-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/include -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-Swift.h -working-directory /Users/edy/Desktop/墨卷阅读器 -experimental-emit-module-separately -disable-cmo
+
+Validate /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app (in target 'InkReader' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-validationUtility /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReader.app -shallow-bundle -infoplist-subpath Info.plist
+
+ProcessInfoPlistFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Info.plist /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/empty-InkReaderUITests.plist (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-infoPlistUtility /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/empty-InkReaderUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/ProductTypeInfoPlistAdditions.plist -requiredArchitecture arm64 -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Info.plist
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-264HZ5GUNBARCDBG0T4R2JTPQ.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-26H8L5IVQXDMV.swiftmodule
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-4ECXP7QWKIPO4OLWY4SEDFU4B.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-2J1AYOH71GZCU.swiftmodule
+
+SwiftCompile normal arm64 Compiling\ InkReaderUITests.swift /Users/edy/Desktop/墨卷阅读器/InkReaderUITests/InkReaderUITests.swift (in target 'InkReaderUITests' from project 'InkReader')
+
+SwiftCompile normal arm64 /Users/edy/Desktop/墨卷阅读器/InkReaderUITests/InkReaderUITests.swift (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-SwiftPerFileCompile InkReaderUITests.swift
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ InkReaderUITests (in target 'InkReaderUITests' from project 'InkReader')
+
+SwiftCompile normal arm64 (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for InkReaderUITests (in target 'InkReaderUITests' from project 'InkReader')
+
+SwiftDriver\ Compilation\ Requirements InkReaderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name InkReaderUITests -O @/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk/Developer/Library/Frameworks -parse-as-library -emit-localized-strings -emit-localized-strings-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/SDKStatCaches.noindex/iphoneos27.1-24A94232-7568eff67e6f40c5a98ca4ef40d9005c.sdkstatcache -output-file-map /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -sdk-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-generated-files.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-own-target-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-project-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/include -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-Swift.h -working-directory /Users/edy/Desktop/墨卷阅读器 -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/InkReaderUITests-Swift.h /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-Swift.h (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-swiftHeaderTool -arch arm64 /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-Swift.h -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/InkReaderUITests-Swift.h
+
+Copy /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.swiftdoc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftdoc (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftdoc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.swiftmodule /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.abi.json /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.abi.json (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.abi.json /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftsourceinfo (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks -rename /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftsourceinfo /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling InkReaderUITests.swift (in target 'InkReaderUITests' from project 'InkReader')
+
+SwiftDriver\ Compilation InkReaderUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name InkReaderUITests -O @/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk/Developer/Library/Frameworks -parse-as-library -emit-localized-strings -emit-localized-strings-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64 -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/SDKStatCaches.noindex/iphoneos27.1-24A94232-7568eff67e6f40c5a98ca4ef40d9005c.sdkstatcache -output-file-map /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex -sdk-module-cache-path /Users/edy/Desktop/墨卷阅读器/build/Device/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/edy/Desktop/墨卷阅读器/build/Device/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_const_extract_protocols.json -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-generated-files.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-own-target-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-all-target-headers.hmap -Xcc -iquote -Xcc /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests-project-headers.hmap -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/include -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources-normal/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources/arm64 -Xcc -I/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests-Swift.h -working-directory /Users/edy/Desktop/墨卷阅读器 -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests normal (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos -L/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/EagerLinkingTBDs/Release-iphoneos -F/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk/Developer/Library/Frameworks -filelist /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_lto.o -Xlinker -dependency_info -Xlinker /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.swiftmodule -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -Xlinker -no_adhoc_codesign -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests
+
+CopySwiftLibs /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-swiftStdLibTool --copy --verbose --sign 0488AC873052273E16C2F588E98A59F4ED63B9E4 --scan-executable /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests --scan-folder /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Frameworks --scan-folder /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/PlugIns --scan-folder /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/SystemExtensions --scan-folder /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Extensions --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name InkReaderUITests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.1.sdk --xcode-version 27A9275 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.edy.inkreader.uitests --output /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest --target-triple arm64-apple-ios17.0 --binary-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests --dependency-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests_dependency_info.dat --stringsdata-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftFileList --metadata-file-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyMetadataFileList --static-metadata-file-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/Objects-normal/arm64/InkReaderUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-11-19 09:45:16.416 appintentsmetadataprocessor[74218:17887074] Starting appintentsmetadataprocessor export
+2026-11-19 09:45:16.426 appintentsmetadataprocessor[74218:17887074] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+GenerateDSYMFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest.dSYM /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    export PATH\=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/edy/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/edy/.codex/packages/app-server-daemon/releases/local-4a5f1d0d386b54d991f885a89f6f18b7889c1f07891b6bacc121c1077440e812-aarch64-apple-darwin/codex-path:/Users/edy/.codex/tmp/arg0-macos/codex-arg0h9mnz3:/Users/edy/.codex/tmp/arg0-macos/codex-arg0Zi5pYf:/Users/edy/.codex/packages/standalone/releases/0.163.0-aarch64-apple-darwin/codex-path:/Users/edy/.unity/bin:/opt/homebrew/opt/openjdk@21/bin:/Users/edy/.cargo/bin:/Applications/iTerm.app/Contents/Resources/utilities
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/InkReaderUITests -o /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest.dSYM
+
+AppIntentsSSUTraining (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Info.plist --temp-dir-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/ssu --bundle-id com.edy.inkreader.uitests --product-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest --extracted-metadata-path /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Metadata.appintents --metadata-file-list /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.DependencyMetadataFileList --source-file /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Info.plist --archive-ssu-assets
+2026-11-19 09:45:16.466 appintentsnltrainingprocessor[74220:17887081] Parsing options for appintentsnltrainingprocessor
+2026-11-19 09:45:16.467 appintentsnltrainingprocessor[74220:17887081] Starting AppIntents SSU YAML Generation
+2026-11-19 09:45:16.470 appintentsnltrainingprocessor[74220:17887081] No AppShortcuts found - Skipping.
+
+CopyAndPreserveArchs /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/InkReaderUITests-Runner (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/InkReaderUITests-Runner -extract arm64
+
+MkDir /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /bin/mkdir -p /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app
+
+Copy /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PkgInfo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app
+
+CopyPlistFile /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/Info.plist /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-copyPlist --validate --convert xml1 --macro-expansion WRAPPEDPRODUCTNAME InkReaderUITests-Runner --macro-expansion WRAPPEDPRODUCTBUNDLEIDENTIFIER com.edy.inkreader.uitests.xctrunner --macro-expansion TESTPRODUCTNAME InkReaderUITests --macro-expansion TESTPRODUCTBUNDLEIDENTIFIER com.edy.inkreader.uitests --copy-value UIDeviceFamily /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest/Info.plist --outdir /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app -- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist
+
+CodeSign /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+    Signing Identity:     "Apple Development: do grub song (32ZPS45QQ5)"
+    Provisioning Profile: "iOS Team Provisioning Profile: *"
+                          (b6849910-33e7-469b-823b-3c2b7c1cc83d)
+    
+    /usr/bin/codesign --force --sign 0488AC873052273E16C2F588E98A59F4ED63B9E4 --entitlements /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent --timestamp\=none --generate-entitlement-der /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest
+
+CodeSign /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    
+    Signing Identity:     "Apple Development: do grub song (32ZPS45QQ5)"
+    Provisioning Profile: "iOS Team Provisioning Profile: *"
+                          (b6849910-33e7-469b-823b-3c2b7c1cc83d)
+    
+    /usr/bin/codesign --force --sign 0488AC873052273E16C2F588E98A59F4ED63B9E4 --entitlements /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/InkReader.build/Release-iphoneos/InkReaderUITests.build/InkReaderUITests.xctest.xcent --timestamp\=none --generate-entitlement-der /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app
+/Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app: replacing existing signature
+
+RegisterExecutionPolicyException /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    builtin-RegisterExecutionPolicyException /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest
+
+Touch /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest (in target 'InkReaderUITests' from project 'InkReader')
+    cd /Users/edy/Desktop/墨卷阅读器
+    /usr/bin/touch -c /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Products/Release-iphoneos/InkReaderUITests-Runner.app/PlugIns/InkReaderUITests.xctest
+
+PruneExplicitPrecompiledModules /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/edy/Desktop/墨卷阅读器/build/Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/edy/Desktop/墨卷阅读器/build/Device/SDKExplicitPrecompiledModules
+
+2026-11-19 09:45:20.733 xcodebuild[74156:17886465] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 09:45:22.517565+0800 InkReaderUITests-Runner[64123:13986882] [Default] Running tests...
+2026-11-19 09:45:52.827377+0800 InkReaderUITests-Runner[64123:13986939] [DTXConnection] Connection peer refused channel request for "dtxproxy:XCTestDriverInterface:XCTestManager_IDEInterface"; channel canceled <DTXChannel 0x13e06b1e0 : x1.c1> "dtxproxy:XCTestDriverInterface:XCTestManager_IDEInterface"
+2026-11-19 09:45:52.827636+0800 InkReaderUITests-Runner[64123:13986939] [Default] Exiting due to IDE disconnection.
+2026-11-19 09:45:52.939 xcodebuild[74156:17886465] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 09:45:52.943 xcodebuild[74156:17886465] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 09:45:52.959 xcodebuild[74156:17886465] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 09:45:53.659 xcodebuild[74156:17888255]  IDETestOperationsObserverDebug: Failure collecting diagnostics from devices: Process exited with error 1:
+ ERROR: The operation couldn?t be completed. (CoreDeviceCLISupport.DiagnoseError error 0.)
+This tool generates files that allow Apple to investigate issues with your
+computer and help improve Apple products. The files might contain personal
+information found on your device or associated with your Apple Account(s),
+including but not limited to your name, serial numbers of your device,
+your device name, your device's location over the last one to two days,
+your attached peripheral devices, your user name, your email address and
+email settings, file paths, file names, Siri suggestions, your computer's
+IP addresses, and network connection information.
+
+This information is used by Apple in accordance with its privacy policy
+(www.apple.com/privacy) and is not shared with any other company. By using
+this tool and sending the results to Apple, you consent to Apple using the
+contents of these files to improve Apple products.
+
+An error occurred while running devicectl diagnose. Will archive the diagnostics collected thus far.
+Wrote file to /Users/edy/Desktop/?????/build/docs-capture/ReadmeScreenshots.xcresult/Staging/1_Test/Diagnostics/devicectl_diagnostics.zip
+Partial devicectl diagnose bundle located here: /Users/edy/Desktop/?????/build/docs-capture/ReadmeScreenshots.xcresult/Staging/1_Test/Diagnostics/devicectl_diagnostics.zip
+
+2026-11-19 09:45:53.831 xcodebuild[74156:17886465] [MT] IDETestOperationsObserverDebug: 37.094 elapsed -- Testing started completed.
+2026-11-19 09:45:53.831 xcodebuild[74156:17886465] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-11-19 09:45:53.831 xcodebuild[74156:17886465] [MT] IDETestOperationsObserverDebug: 37.094 sec, +37.094 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/edy/Desktop/墨卷阅读器/build/docs-capture/ReadmeScreenshots.xcresult
+
+Testing failed:
+	InkReaderUITests-Runner (64123) encountered an error (Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying Error: The test runner exited with code 74 before establishing connection.))
+
+** TEST FAILED **
+
+Testing started

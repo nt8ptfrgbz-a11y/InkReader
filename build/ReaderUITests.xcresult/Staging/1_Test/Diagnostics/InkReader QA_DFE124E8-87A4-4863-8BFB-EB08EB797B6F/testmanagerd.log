@@ -1,0 +1,21 @@
+09:34:38.502 xcodebuild[71999:17869013] Sim InkReader QA: Unregistering for sim device notification with token 3
+09:34:38.509 xcodebuild[71999:17869013] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+09:34:38.514 xcodebuild[71999:17869013] Sim InkReader QA has testmanagerd socket at /private/var/tmp/com.apple.launchd.c2he2klMhf/com.apple.testmanagerd.unix-domain.socket
+09:34:38.514 xcodebuild[71999:17869013] Validating test connection socket path (/private/var/tmp/com.apple.launchd.c2he2klMhf/com.apple.testmanagerd.unix-domain.socket)
+09:34:38.514 xcodebuild[71999:17869013] Constructing transport for test connection socket
+09:34:38.514 xcodebuild[71999:17869013] Connected socket 24 to testmanagerd for Sim InkReader QA
+09:34:38.533 xcodebuild[71999:17869013] Initiating control session with IDE capabilities: <XCTCapabilities: 0x7a8e22b640>: {
+    "report crashes capability" = 3;
+}
+09:35:57.513 xcodebuild[71999:17871652] Got reply to control session initiation request (result:error): <XCTCapabilities: 0x7a8e22b5e0>: {
+    "authorize test session capability" = 1;
+    "automation mode" = 1;
+    "initiate daemon control session capability" = 4;
+    "initiate test runner session capability" = 2;
+    "record UI interaction capability" = 2;
+    "recording events as source code" = 1;
+    "request log archive capability" = 1;
+    "structured results configuration" = 1;
+    "supports delayed attachment transfers" = 1;
+}: (null)
+09:35:57.609 xcodebuild[71999:17871652] Requesting crash report collection for process names: assertiond, FrontBoard, runningboardd, testmanagerd, DTServiceHub, InkReader, SpringBoard, InkReaderUITests-Runner, xctest, backboardd, debugserver

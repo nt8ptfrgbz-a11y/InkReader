@@ -1,0 +1,4 @@
+module InkReaderCore {
+header "InkReaderCore-Swift.h"
+export *
+}

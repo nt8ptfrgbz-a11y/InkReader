@@ -1,0 +1,272 @@
+{
+  "source": "/Users/edy/Desktop/墨卷阅读器/InkReader/Views/ReaderPanels.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "目录与书签",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "阅读时点击右上角的书签，即可标记当前位置。",
+        "location": {
+          "startingColumn": 112,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "留住喜欢的段落",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "章节 · %lld",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "书签 · %lld",
+        "location": {
+          "startingColumn": 112,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "查找章节",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在阅读",
+        "location": {
+          "startingColumn": 162,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "约 %lld 字",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "本章 %lld%% · %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "阅读排版",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "阅读时保持屏幕常亮",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "读",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "字号",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "行距",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "行距",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "紧凑",
+        "location": {
+          "startingColumn": 86,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "舒适",
+        "location": {
+          "startingColumn": 111,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "宽松",
+        "location": {
+          "startingColumn": 137,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "字体",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "字体",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "宋体",
+        "location": {
+          "startingColumn": 81,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "黑体",
+        "location": {
+          "startingColumn": 107,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索全书",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "人名、情节或一句话",
+        "location": {
+          "startingColumn": 102,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "输入人名或关键词，搜索本书全部章节。",
+        "location": {
+          "startingColumn": 130,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "寻找故事中的一句话",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在查找…",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 143
+        }
+      }
+    ]
+  },
+  "version": 1
+}

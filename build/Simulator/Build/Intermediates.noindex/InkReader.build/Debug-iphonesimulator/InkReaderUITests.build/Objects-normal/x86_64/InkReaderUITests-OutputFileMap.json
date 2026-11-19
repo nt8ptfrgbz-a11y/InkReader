@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests-primary.dia",
+    "emit-module-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests-primary-emit-module.dia",
+    "pch" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests-primary.swiftdeps"
+  },
+  "/Users/edy/Desktop/墨卷阅读器/InkReaderUITests/InkReaderUITests.swift" : {
+    "const-values" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.swiftconstvalues",
+    "dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.d",
+    "diagnostics" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.dia",
+    "index-unit-output-path" : "/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.o",
+    "llvm-bc" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.bc",
+    "object" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.o",
+    "swift-dependencies" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests.swiftdeps",
+    "swiftmodule" : "/Users/edy/Desktop/墨卷阅读器/build/Simulator/Build/Intermediates.noindex/InkReader.build/Debug-iphonesimulator/InkReaderUITests.build/Objects-normal/x86_64/InkReaderUITests~partial.swiftmodule"
+  }
+}
